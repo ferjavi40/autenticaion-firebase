@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-firebase-9470e": {
+      "hosting": {
+        "autenticacion": [
+          "login-firebase-9470e"
+        ]
+      }
+    }
+  }
+}
