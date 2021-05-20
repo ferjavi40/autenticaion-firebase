@@ -1,27 +1,28 @@
 <div class="row">
-    <div class="col-2"></div>
-    <div class="col-8">
-        <div class="card">
-            <div class="card-body" [ngStyle]="{backgroundColor:'var(--blue-800)'}">
-                <h2 class="text-white">Login</h2>
-                <form>
-                    <div class="form-group mt-3">
-                        <span class="p-float-label">
-                            <input id="float-input" type="email" pInputText [ngStyle]="{backgroundColor:'var(--blue-700)'}"> 
-                            <label for="float-input">Nombre</label>
-                        </span>
+    <h2 class="text-center m-3 text-color">Login</h2>
+    <form>
+        <div class="col">
+            <div class="card">
+                <div class="p-fluid">
+                    <div class="form-group">
+                        <div class="p-field mt-3">
+                            <label for="firstname1">Email</label>
+                            <input id="firstname1" type="email" class="form-control" pInputText />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="p-field mt-3">
+                            <label for="lastname1">Contaseña</label>
+                            <input id="lastname1" type="password" class="form-control" pInputText />
+                        </div>
                     </div>
 
-                    <div class="form-group mt-4">
-                        <span class="p-float-label">
-                            <input id="float-input" type="password" pInputText [ngStyle]="{backgroundColor:'var(--blue-700)'}"> 
-                            <label for="float-input">Password</label>
-                        </span>
-                    </div>
-                </form>
-                <button pButton pRipple type="button" label="Login" class="p-button-raised p-button-success p-button-text mt-3"></button>
+                </div>
+                <button pButton pRipple type="button" label="Login"
+                    class="p-button-outlined p-button-info mt-3 mb-3"></button>
             </div>
         </div>
-    </div>
-    <div class="col-2"></div>
+    </form>
+
+
 </div>
