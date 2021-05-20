@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { RegisterRoutingModule } from './register-routing.module';
 import { RegisterComponent } from './register.component';
+import { PrimeModule } from 'src/app/primeNg/prime.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { RegisterComponent } from './register.component';
   ],
   imports: [
     CommonModule,
-    RegisterRoutingModule
+    RegisterRoutingModule,
+    PrimeModule
   ]
 })
 export class RegisterModule { }

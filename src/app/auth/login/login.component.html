@@ -1,28 +1,21 @@
 <div class="row">
     <h2 class="text-center m-3 text-color">Login</h2>
     <form>
-        <div class="col">
-            <div class="card">
-                <div class="p-fluid">
-                    <div class="form-group">
-                        <div class="p-field mt-3">
-                            <label for="firstname1">Email</label>
-                            <input id="firstname1" type="email" class="form-control" pInputText />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="p-field mt-3">
-                            <label for="lastname1">Contaseña</label>
-                            <input id="lastname1" type="password" class="form-control" pInputText />
-                        </div>
-                    </div>
-
+        <div class="p-fluid">
+            <div class="form-group">
+                <div class="p-field">
+                    <label class="text-color" for="firstname1">Email</label>
+                    <input id="firstname1" type="email" pInputText>
                 </div>
-                <button pButton pRipple type="button" label="Login"
-                    class="p-button-outlined p-button-info mt-3 mb-3"></button>
             </div>
+            <div class="form-group mt-3">
+                <div class="p-field">
+                    <label class="text-color" for="lastname1">Lastname</label>
+                    <input id="lastname1" type="password" pInputText>
+                </div>
+            </div>
+            <button pButton pRipple type="button" label="Login"
+                class="p-button-outlined p-button-success mt-5"></button>
         </div>
     </form>
-
-
 </div>
