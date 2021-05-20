@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+
 import { LoginRoutingModule } from './login-routing.module';
 import { LoginComponent } from './login.component';
+import { PrimeModule } from 'src/app/primeNg/prime.module';
 
 
 @NgModule({
@@ -11,7 +13,8 @@ import { LoginComponent } from './login.component';
   ],
   imports: [
     CommonModule,
-    LoginRoutingModule
+    LoginRoutingModule,
+    PrimeModule
   ]
 })
 export class LoginModule { }
