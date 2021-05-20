@@ -1,4 +1,5 @@
 <p-menubar [model]="items">
-    <button pButton pRipple type="button" label="Login" class="p-button-outlined p-button-success"></button>
-    <button pButton label="Register" icon="pi pi-pencil" class="p-button-outlined"></button>
+    <button [routerLink]="['/login']" pButton pRipple type="button" label="Login" class="p-button-outlined p-button-success"></button>
+    <button  pButton pRipple type="button" label="Logout" class="p-button-outlined p-button-danger"></button>
+    <button [routerLink]="['/register']" pButton label="Register" icon="pi pi-pencil" class="p-button-outlined"></button>
 </p-menubar>
